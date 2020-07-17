@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lijialin990/Desktop/BST/BST.cpp">
+			<Option target="BST"/>
+		</Unit>
+		<Unit filename="/Users/lijialin990/Desktop/BST/BST.h">
+			<Option target="BST"/>
+		</Unit>
 		<Unit filename="/Users/lijialin990/Desktop/BST/main.cpp">
 			<Option target="BST"/>
 		</Unit>

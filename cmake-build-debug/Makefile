@@ -123,6 +123,33 @@ BST/fast:
 	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/build
 .PHONY : BST/fast
 
+BST.o: BST.cpp.o
+
+.PHONY : BST.o
+
+# target to build an object file
+BST.cpp.o:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.cpp.o
+.PHONY : BST.cpp.o
+
+BST.i: BST.cpp.i
+
+.PHONY : BST.i
+
+# target to preprocess a source file
+BST.cpp.i:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.cpp.i
+.PHONY : BST.cpp.i
+
+BST.s: BST.cpp.s
+
+.PHONY : BST.s
+
+# target to generate assembly for a file
+BST.cpp.s:
+	$(MAKE) -f CMakeFiles/BST.dir/build.make CMakeFiles/BST.dir/BST.cpp.s
+.PHONY : BST.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... BST"
+	@echo "... BST.o"
+	@echo "... BST.i"
+	@echo "... BST.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

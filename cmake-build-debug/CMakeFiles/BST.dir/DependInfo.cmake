@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/lijialin990/Desktop/BST/BST.cpp" "/Users/lijialin990/Desktop/BST/cmake-build-debug/CMakeFiles/BST.dir/BST.cpp.o"
   "/Users/lijialin990/Desktop/BST/main.cpp" "/Users/lijialin990/Desktop/BST/cmake-build-debug/CMakeFiles/BST.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
