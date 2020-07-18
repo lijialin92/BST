@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/lijialin990/Desktop/BST/BST.cpp
+iostream
+-
+BST.h
+/Users/lijialin990/Desktop/BST/BST.h
+
 /Users/lijialin990/Desktop/BST/BST.h
 
 /Users/lijialin990/Desktop/BST/main.cpp

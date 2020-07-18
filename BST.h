@@ -11,6 +11,10 @@ public:
     BST* getNewNode(int num);
     BST* insert(BST* rootPtr, int num);
     bool search(BST* rootPtr, int num);
+    int findMin(BST* rootPtr);
+    int findMax(BST* rootPtr);
+    int findHeight(BST* rootPtr);
+    int maxHeight(int left, int right);
 private:
     int data;
     BST* left = nullptr;
